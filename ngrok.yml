@@ -1,0 +1,6 @@
+version: "2"
+tunnels:
+  secure_web:
+    proto: http
+    addr: reverse-proxy:80
+    inspect: false
